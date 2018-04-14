@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A418266D2080EE0D009A34B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A418266C2080EE0D009A34B7 /* AppDelegate.swift */; };
+		A418266F2080EE0E009A34B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A418266E2080EE0E009A34B7 /* Assets.xcassets */; };
+		A41826722080EE0E009A34B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41826702080EE0E009A34B7 /* MainMenu.xib */; };
+		A41826782080EE78009A34B7 /* RootScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A438CE872080DBB700A3F23A /* RootScreenSaverView.swift */; };
+		A41AED8C2082211500447E68 /* ShowerThoughtsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AED8B2082211500447E68 /* ShowerThoughtsAPIClient.swift */; };
+		A41AED8D2082225F00447E68 /* ShowerThoughtsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AED8B2082211500447E68 /* ShowerThoughtsAPIClient.swift */; };
+		A41AED90208223CE00447E68 /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AED8F208223CE00447E68 /* Thought.swift */; };
+		A41AED922082257B00447E68 /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AED8F208223CE00447E68 /* Thought.swift */; };
+		A41AED952082276600447E68 /* Collection+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AED942082276600447E68 /* Collection+Random.swift */; };
+		A41AED962082277A00447E68 /* Collection+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41AED942082276600447E68 /* Collection+Random.swift */; };
+		A438CE882080DBB700A3F23A /* RootScreenSaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A438CE872080DBB700A3F23A /* RootScreenSaverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A418266A2080EE0D009A34B7 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A418266C2080EE0D009A34B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A418266E2080EE0E009A34B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A41826712080EE0E009A34B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A41826732080EE0E009A34B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41826742080EE0E009A34B7 /* Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo.entitlements; sourceTree = "<group>"; };
+		A41AED8B2082211500447E68 /* ShowerThoughtsAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowerThoughtsAPIClient.swift; sourceTree = "<group>"; };
+		A41AED8F208223CE00447E68 /* Thought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thought.swift; sourceTree = "<group>"; };
+		A41AED942082276600447E68 /* Collection+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Random.swift"; sourceTree = "<group>"; };
+		A438CE782080DB8000A3F23A /* ShowerThoughtsScreenSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowerThoughtsScreenSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		A438CE7F2080DB8000A3F23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A438CE872080DBB700A3F23A /* RootScreenSaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootScreenSaverView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A41826672080EE0D009A34B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A438CE742080DB8000A3F23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A418266B2080EE0D009A34B7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A418266C2080EE0D009A34B7 /* AppDelegate.swift */,
+				A418266E2080EE0E009A34B7 /* Assets.xcassets */,
+				A41826702080EE0E009A34B7 /* MainMenu.xib */,
+				A41826732080EE0E009A34B7 /* Info.plist */,
+				A41826742080EE0E009A34B7 /* Demo.entitlements */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		A41AED8A2082210100447E68 /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+				A41AED8B2082211500447E68 /* ShowerThoughtsAPIClient.swift */,
+				A41AED8E208223C200447E68 /* Models */,
+			);
+			path = "API Client";
+			sourceTree = "<group>";
+		};
+		A41AED8E208223C200447E68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A41AED8F208223CE00447E68 /* Thought.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A41AED932082271200447E68 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A41AED942082276600447E68 /* Collection+Random.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A438CE6E2080DB8000A3F23A = {
+			isa = PBXGroup;
+			children = (
+				A438CE7A2080DB8000A3F23A /* ShowerThoughtsScreenSaver */,
+				A418266B2080EE0D009A34B7 /* Demo */,
+				A438CE792080DB8000A3F23A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A438CE792080DB8000A3F23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A438CE782080DB8000A3F23A /* ShowerThoughtsScreenSaver.saver */,
+				A418266A2080EE0D009A34B7 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A438CE7A2080DB8000A3F23A /* ShowerThoughtsScreenSaver */ = {
+			isa = PBXGroup;
+			children = (
+				A438CE852080DB9800A3F23A /* Source */,
+				A438CE7F2080DB8000A3F23A /* Info.plist */,
+			);
+			path = ShowerThoughtsScreenSaver;
+			sourceTree = "<group>";
+		};
+		A438CE852080DB9800A3F23A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A41AED932082271200447E68 /* Extensions */,
+				A41AED8A2082210100447E68 /* API Client */,
+				A438CE862080DB9F00A3F23A /* Views */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A438CE862080DB9F00A3F23A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A438CE872080DBB700A3F23A /* RootScreenSaverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A438CE752080DB8000A3F23A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A41826692080EE0D009A34B7 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41826752080EE0E009A34B7 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				A41826662080EE0D009A34B7 /* Sources */,
+				A41826672080EE0D009A34B7 /* Frameworks */,
+				A41826682080EE0D009A34B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = A418266A2080EE0D009A34B7 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A438CE772080DB8000A3F23A /* ShowerThoughtsScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A438CE822080DB8000A3F23A /* Build configuration list for PBXNativeTarget "ShowerThoughtsScreenSaver" */;
+			buildPhases = (
+				A438CE732080DB8000A3F23A /* Sources */,
+				A438CE742080DB8000A3F23A /* Frameworks */,
+				A438CE752080DB8000A3F23A /* Headers */,
+				A438CE762080DB8000A3F23A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowerThoughtsScreenSaver;
+			productName = ShowerThoughtsScreenSaver;
+			productReference = A438CE782080DB8000A3F23A /* ShowerThoughtsScreenSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A438CE6F2080DB8000A3F23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Red Davis";
+				TargetAttributes = {
+					A41826692080EE0D009A34B7 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					A438CE772080DB8000A3F23A = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = A438CE722080DB8000A3F23A /* Build configuration list for PBXProject "ShowerThoughtsScreenSaver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A438CE6E2080DB8000A3F23A;
+			productRefGroup = A438CE792080DB8000A3F23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A438CE772080DB8000A3F23A /* ShowerThoughtsScreenSaver */,
+				A41826692080EE0D009A34B7 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A41826682080EE0D009A34B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A418266F2080EE0E009A34B7 /* Assets.xcassets in Resources */,
+				A41826722080EE0E009A34B7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A438CE762080DB8000A3F23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A41826662080EE0D009A34B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41AED8D2082225F00447E68 /* ShowerThoughtsAPIClient.swift in Sources */,
+				A41AED962082277A00447E68 /* Collection+Random.swift in Sources */,
+				A41826782080EE78009A34B7 /* RootScreenSaverView.swift in Sources */,
+				A418266D2080EE0D009A34B7 /* AppDelegate.swift in Sources */,
+				A41AED922082257B00447E68 /* Thought.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A438CE732080DB8000A3F23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41AED90208223CE00447E68 /* Thought.swift in Sources */,
+				A438CE882080DBB700A3F23A /* RootScreenSaverView.swift in Sources */,
+				A41AED952082276600447E68 /* Collection+Random.swift in Sources */,
+				A41AED8C2082211500447E68 /* ShowerThoughtsAPIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A41826702080EE0E009A34B7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41826712080EE0E009A34B7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A41826762080EE0E009A34B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CF43K35J9C;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A41826772080EE0E009A34B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CF43K35J9C;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		A438CE802080DB8000A3F23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A438CE812080DB8000A3F23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A438CE832080DB8000A3F23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CF43K35J9C;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ShowerThoughtsScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.ShowerThoughtsScreenSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		A438CE842080DB8000A3F23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CF43K35J9C;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ShowerThoughtsScreenSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddavis.ShowerThoughtsScreenSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A41826752080EE0E009A34B7 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41826762080EE0E009A34B7 /* Debug */,
+				A41826772080EE0E009A34B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A438CE722080DB8000A3F23A /* Build configuration list for PBXProject "ShowerThoughtsScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A438CE802080DB8000A3F23A /* Debug */,
+				A438CE812080DB8000A3F23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A438CE822080DB8000A3F23A /* Build configuration list for PBXNativeTarget "ShowerThoughtsScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A438CE832080DB8000A3F23A /* Debug */,
+				A438CE842080DB8000A3F23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A438CE6F2080DB8000A3F23A /* Project object */;
+}
