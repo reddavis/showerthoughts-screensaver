@@ -119,9 +119,9 @@ import ScreenSaver
         switch self.fadeDirection
         {
         case .down:
-            self.textAlpha -= 0.02
+            self.textAlpha -= 0.01
         case .up:
-            self.textAlpha += 0.02
+            self.textAlpha += 0.01
         }
         
         self.needsDisplay = true
